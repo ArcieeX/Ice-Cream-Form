@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Tenor+Sans&display=swap");
+
+/* SEE PROPERTY/VALUE PAIRS BELOW: */
+/* font-family: "Tenor Sans", sans-serif; */
+/* font-family: "Paytone One", sans-serif; */
+body {
+	font-family: "Paytone One", sans-serif;
+	font-size: 1rem;
+	max-width: 100%;
+	background-color: #ffe2be;
+	text-align: center;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	color: #f122ff;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+h3 {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 0.8rem;
+}
+
+form {
+	max-width: 100%;
+	font-family: "Tenor Sans", sans-serif;
+	color: white;
+	background-color: #0393b3;
+	display: block;
+	padding: 3rem;
+	border-radius: 3%;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1rem;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+}
+
+input[type=text],
+[type=email],
+[type=phone] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+select {
+	padding-bottom: 1rem;
+	width: 100%;
+	padding: 12px 20px;
+	margin-top: 8px;
+	margin-bottom: 1rem;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.radio {
+	display: flex;
+	flex-direction: column;
+}
+
+.radiolabel {
+	align-items: center;
+
+
+}
+
+input[type=submit] {
+	color: #0393b3;
+	border: 1px solid #ccc;
+	margin-top: 1.5rem;
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+input[type=submit]:hover {
+	background-color: #f122ff;
+	color: white;
+}
+
+@media (min-width: 650px){
+	body{
+		padding: 2rem;
+		margin: 3rem;
+
+	}
+	.radiolabel {
+		display: flex;
+		justify-content: space-evenly;
+		padding-bottom: 1rem;
+	}
+	input[type=submit] {
+
+		padding: 1rem;
+		width: 50%;
+
+	}
+	
+
+}
+	
